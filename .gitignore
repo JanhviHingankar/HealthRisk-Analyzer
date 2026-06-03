@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+*.bak
+fix_app.py
+test_stroke.pdf
+
+# Extra tracking and data (Do not upload to save space)
+*.csv
+*.ipynb
+train_models.py
+verify_models.py
