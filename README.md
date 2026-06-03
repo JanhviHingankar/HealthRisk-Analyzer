@@ -29,7 +29,7 @@ The application boasts a premium glassmorphic UI, dynamic Plotly visualizations,
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/HealthRisk-Analyzer.git
+git clone https://github.com/JanhviHingankar/HealthRisk-Analyzer.git
 cd HealthRisk-Analyzer
 ```
 
