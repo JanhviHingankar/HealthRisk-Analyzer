@@ -4,3 +4,5 @@ pandas
 plotly
 reportlab
 scikit-learn
+xgboost
+imbalanced-learn
