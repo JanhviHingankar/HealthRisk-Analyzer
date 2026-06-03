@@ -21,7 +21,5 @@ fix_app.py
 test_stroke.pdf
 
 # Extra tracking and data (Do not upload to save space)
-*.csv
-*.ipynb
 train_models.py
 verify_models.py
