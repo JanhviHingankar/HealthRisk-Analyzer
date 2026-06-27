@@ -9,15 +9,25 @@ The application boasts a premium glassmorphic UI, dynamic Plotly visualizations,
 ##  Key Features
 
 - **Multi-Disease Screening**: Contains three isolated models trained to predict clinical risk percentages for:
+<<<<<<< HEAD
   -  **Diabetes** (Demographics, Glucose, HbA1c, etc.)
   -  **Heart Disease** (Cholesterol, Systolic BP, Fasting Sugar, etc.)
   -  **Stroke** (11+ Cardiorespiratory, Neurological, and Autonomic symptoms)
+=======
+  - **Diabetes** (Demographics, Glucose, HbA1c, etc.)
+  - **Heart Disease** (Cholesterol, Systolic BP, Fasting Sugar, etc.)
+  - **Stroke** (11+ Cardiorespiratory, Neurological, and Autonomic symptoms)
+>>>>>>> 4c66b8b69259f15d3deea85773a6c70478692aa4
 - **Automated Clinical Reports**: Generates downloadable, clinician-ready **PDF Diagnostics Reports** equipped with layout-adjusted tables, medical disclaimers, and dynamically assigned severity badges.
 - **Dynamic Visualizations**: Utilizes Plotly to render radar charts, risk gauge meters, and symptom breakdown bars based solely on individualized patient input.
 - **Robust UI Form Handling**: Auto-generates unique Patient IDs per session, implements rigorous form validations, and actively prohibits empty metrics arrays from causing server errors.
 - **Premium Aesthetics**: Features custom-injected CSS targeting Streamlit components for a modern, glassmorphic layout, cohesive thematic styles per disease, and dynamic alerts.
 
+<<<<<<< HEAD
 ##  Technology Stack
+=======
+## Technology Stack
+>>>>>>> 4c66b8b69259f15d3deea85773a6c70478692aa4
 
 - **Frontend**: Streamlit, Custom HTML/CSS
 - **Data Visualizations**: Plotly (Graph Objects, Express)
@@ -25,11 +35,15 @@ The application boasts a premium glassmorphic UI, dynamic Plotly visualizations,
 - **Machine Learning**: Scikit-Learn (Pipelines, Classification)
 - **Data Processing**: Pandas, NumPy
 
+<<<<<<< HEAD
 ##  Quickstart Guide
+=======
+## Quickstart Guide
+>>>>>>> 4c66b8b69259f15d3deea85773a6c70478692aa4
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/HealthRisk-Analyzer.git
+git clone https://github.com/JanhviHingankar/HealthRisk-Analyzer.git
 cd HealthRisk-Analyzer
 ```
 
@@ -46,7 +60,11 @@ streamlit run app.py
 ```
 *The app will automatically open in your default browser at `http://localhost:8501`.*
 
+<<<<<<< HEAD
 ##  Repository Structure
+=======
+## Repository Structure
+>>>>>>> 4c66b8b69259f15d3deea85773a6c70478692aa4
 
 ```text
 ├── app.py                       # Main Streamlit application and UI routing
@@ -59,9 +77,13 @@ streamlit run app.py
 └── features.pkl                 # Persisted feature lists for pre-processing
 ```
 
+<<<<<<< HEAD
 ##  Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check out the [issues page](https://github.com/YOUR-USERNAME/multi-disease-prediction/issues).
 
 ##  License
 This project is open source and available under the [MIT License](LICENSE).
+=======
+
+>>>>>>> 4c66b8b69259f15d3deea85773a6c70478692aa4
