@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+/* Global resets and font styling */
+html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+    font-family: 'Outfit', sans-serif !important;
+    background-color: #0A0E1A !important;
+    color: #E2E8F0 !important;
+}
+
+/* Sidebar design */
+section[data-testid="stSidebar"] {
+    background-color: #050811 !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #6366F1 0%, #A855F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Main Container spacing */
+.main .block-container {
+    max-width: 95%;
+    padding-top: 1.5rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* Custom card container styling targeting native Streamlit containers with borders */
+div[data-testid="stVerticalBlockBorder"] {
+    background: rgba(17, 24, 39, 0.7) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding: 24px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Remove default background and border from columns to prevent duplicate/empty cards */
+[data-testid="column"] {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Style headers inside glass cards */
+div[data-testid="stVerticalBlockBorder"] h3 {
+    margin-top: 0 !important;
+    color: #F8FAFC !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 20px !important;
+}
+
+div[data-testid="stVerticalBlockBorder"] h5 {
+    color: #818CF8 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+/* Input Fields overrides */
+div[data-baseweb="input"], div[data-baseweb="select"] {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Radio button text */
+.stRadio label {
+    font-size: 14px !important;
+    color: #94A3B8 !important;
+}
+
+/* Interactive elements headers */
+p {
+    font-size: 15px !important;
+    font-weight: 500;
+    color: #E2E8F0;
+    margin-bottom: 6px !important;
+}
+
+/* Buttons style */
+.stButton button {
+    background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 24px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3) !important;
+    width: 100%;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
+    background: linear-gradient(135deg, #5A52E6 0%, #8B4CFA 100%) !important;
+}
+
+.stButton button:active {
+    transform: translateY(0) !important;
+}
+
+/* Custom styled Alert alerts */
+div[data-testid="stAlert"] {
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background-color: rgba(30, 41, 59, 0.4) !important;
+}
