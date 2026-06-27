@@ -59,6 +59,4 @@ streamlit run app.py
 └── features.pkl                 # Persisted feature lists for pre-processing
 ```
 
-## Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check out the [issues page](https://github.com/JanhviHingankar/multi-disease-prediction/issues).
+
