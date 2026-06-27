@@ -56,6 +56,7 @@ streamlit run app.py
 
 ##  Repository Structure
 
+```text
 ├── app.py                       # Main Streamlit application and UI routing
 ├── report_generator.py          # PDF generation engine leveraging ReportLab
 ├── requirements.txt             # Project dependencies
@@ -65,4 +66,3 @@ streamlit run app.py
 ├── stroke_pipeline.pkl          # Serialized ML model for Stroke
 └── features.pkl                 # Persisted feature lists for pre-processing
 ```
-
